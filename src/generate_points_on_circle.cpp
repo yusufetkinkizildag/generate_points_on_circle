@@ -1,5 +1,3 @@
-// Generate evenly spaced points on the perimeter of a given circle
-// g++ main2.cpp -o circle -std=c++17
 #include <vector>
 #include <algorithm>
 #include <numeric>
