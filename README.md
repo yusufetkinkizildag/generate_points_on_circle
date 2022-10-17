@@ -36,7 +36,7 @@ auto const generate_points_on_the_circle{[](auto const &origin, auto const radiu
 ```
 First generates angles incremented by [std::iota](https://en.cppreference.com/w/cpp/algorithm/iota). So the result is `0.0, 1.0, 2.0 ...`. The values are stored in a vector called `angles`.
 
-Then calculates the angle between adjacent points. Since the poins are 'evenly spaced', the step size is same for all points thus it has been calculated once in the capture scope of lambda. Every angle is multiplied with the step size to get real angle value in radians. 
+Then calculates the angle between adjacent points. Since the points are 'evenly spaced', the step size is the same for all points thus it has been calculated once in the capture clause of lambda. Every angle is multiplied with the step size to get real angle value in radians. 
 
 $$angle\\_step = \dfrac{2\pi}{number\\_of\\_points}$$
 
