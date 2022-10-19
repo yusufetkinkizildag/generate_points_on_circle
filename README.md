@@ -50,7 +50,7 @@ $$\quad \quad \quad \quad \quad \quad \quad \quad \quad y_i = o_y + \sin(angle) 
 
 ## Compiler
 ```console
-root@docker-desktop:/iterative_quicksort$ g++ -v
+root@docker-desktop:/generate_points_on_circle$ g++ -v
 Using built-in specs.
 COLLECT_GCC=g++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper
@@ -63,7 +63,7 @@ gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.1)
 ```
 
 ```console
-root@docker-desktop:/iterative_quicksort$ gcc -v
+root@docker-desktop:/generate_points_on_circle$ gcc -v
 Using built-in specs.
 COLLECT_GCC=gcc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper
