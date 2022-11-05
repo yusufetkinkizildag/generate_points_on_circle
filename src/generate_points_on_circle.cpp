@@ -4,7 +4,7 @@
 #include <cmath>
 #include <iostream>
 
-constexpr static auto PI = 3.141592653589793;
+constexpr static auto PI{3.141592653589793};
 
 namespace utility
 {
